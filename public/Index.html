@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="main-header">
+	    <nav class="navbar navbar-expand-lg navbar-dark container">
+	        <a href="index.html" class="navbar-brand">Index</a>
+	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<ul class="navbar-nav ml-auto">
+      				<li class="nav-item active"><a class="nav-link" href="index.html">Accueil</a></li>
+      				<li class="nav-item"><a class="nav-link" href="About.html">A propos</a></li>
+      				<li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+      				<li class="nav-item"><a class="button button-outline" href="Login.html">Se connecter</a></li>
+			</div>
+	    </nav>
+
+    	<div class="titles">
+    		<h1>Mon blog</h1>
+    		<p>Sous titre de mon blog</p>
+    	</div>
+    </header>
+
+    <section class="container-fluid main">
+    	<div class="row">
+    		<div class="col-md-7 col-lg-8 body-page news">
+    			<article>
+    				<p class="text-muted date">Publié le <strong>12/06/20</strong>, par <strong class="author">Ermina</strong></p>  
+    				<h2 class="h4"><a href="Article.html">Article 1</a></h2>    									
+	    			<div class="content">
+	    				<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Unde fuga blanditiis ipsa molestiae aperiam tempore delectus voluptate nisi facilis illo, incidunt, mollitia voluptas quo voluptates sequi alias, iste numquam nam!</p>
+	    				<p>Dignissimos libero blanditiis et rerum quasi labore facere ut asperiores eius quam, inventore ex sed, iste, molestias eaque molestiae optio quia tempore sapiente in cupiditate. Animi, quas autem officia obcaecati.</p>
+	    			</div>
+	    			<a href="Article.html" class="button">Voir l'article →</a>
+	    		</article>
+	    		<hr>
+    			<article>
+    				<p class="text-muted date">Publié le <strong>12/06/20</strong>, par <strong class="author">Ermina</strong></p>  
+    				<h2 class="h4"><a href="Article.html">Article 2</a></h2>    									
+	    			<div class="content">
+	    				<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Unde fuga blanditiis ipsa molestiae aperiam tempore delectus voluptate nisi facilis illo, incidunt, mollitia voluptas quo voluptates sequi alias, iste numquam nam!</p>
+	    				<p>Dignissimos libero blanditiis et rerum quasi labore facere ut asperiores eius quam, inventore ex sed, iste, molestias eaque molestiae optio quia tempore sapiente in cupiditate. Animi, quas autem officia obcaecati.</p>
+	    			</div>
+	    			<a href="Article.html" class="button">Voir l'article →</a>
+	    		</article>
+	    		<hr>
+	    		<article>
+    				<p class="text-muted date">Publié le <strong>12/06/20</strong>, par <strong class="author">Ermina</strong></p>  
+    				<h2 class="h4"><a href="Article.html">Article 3</a></h2>    									
+	    			<div class="content">
+	    				<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Unde fuga blanditiis ipsa molestiae aperiam tempore delectus voluptate nisi facilis illo, incidunt, mollitia voluptas quo voluptates sequi alias, iste numquam nam!</p>
+	    				<p>Dignissimos libero blanditiis et rerum quasi labore facere ut asperiores eius quam, inventore ex sed, iste, molestias eaque molestiae optio quia tempore sapiente in cupiditate. Animi, quas autem officia obcaecati.</p>
+	    			</div>
+	    			<a href="Article.html" class="button">Voir l'article →</a>
+	    		</article>
+	    		<hr>
+
+	    		<div class="navigation">
+	    			<div class="btn-group" role="group" aria-label="Basic outlined example">
+					  	<a type="button" class="btn button-outline init" href="#">Début</a>
+					  	<a type="button" class="btn button-outline number" href="#">1</a>
+					  	<a type="button" class="btn button-outline number" href="#">2</a>
+					  	<a type="button" class="btn button-outline number" href="#">3</a>
+					  	<a type="button" class="btn button-outline number" href="#">4</a>
+					  	<a type="button" class="btn button-outline init" href="#">Fin</a>
+					</div>
+	    		</div>
+    		</div>
+
+    		<aside class="col-md-4 col-lg-3 aside">
+    			<h2>Rechercher</h2>
+    			<form action="" method="get">
+					<input type="text" placeholder="recherchez..." class="input">
+					<input type="button" value="OK" class="button button-small">
+				</form>
+				<hr>
+				<h2>Catégories</h2>
+
+				<ul>
+					<li data-count="3"><a href="#">Lorem Ipsum</a></li>
+					<li data-count="7"><a href="#">Magnum dolorem</a></li>
+					<li data-count="8"><a href="#">Quis quaerit laborem</a></li>
+					<li data-count="10"><a href="#">Voluptas assumenda</a></li>
+					<li data-count="5"><a href="#">Nisi Ipsum</a></li>
+					<li data-count="2"><a href="#">Expedita pariatur</a></li>
+				</ul>
+    		</aside>
+    	</div>
+    </section>
+
+    <footer class="main-footer">
+    	<p><strong>Mon blog</strong>, sous-titre de mon blog</p>
+    	<p><span>Photo by <a href="https://unsplash.com/@readysetfreddy?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Freddy Castro</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+    	<p>© Céline Foucart</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
